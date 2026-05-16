@@ -1,6 +1,6 @@
 main {
     max-width: 840px;
-    width: 300;
+    width: 300px;
     background-color: #eee;
 }
 
@@ -26,40 +26,41 @@ main img {
     padding: 16px;
     background: #ffffff;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
 
-    p {
-        padding: 0;
-    }
+p {
+    padding: 0;
+}
 
-    footer {
-        margin-top: 15px;
-        border-top: 1px solid #000;
-        text-align: center;
-    }
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
 
-    nav {
-        background-color: darkblue;
-        padding: 10px;
-    }
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
 
-    nav a {
-        color: white;
-        display: block;
-        padding: 20px;
-    }
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
 
-    h1 {
-        color: darkblue;
-    }
+h1 {
+    color: darkblue;
+}
 
-    img {
-        width: 150px;
-        height: auto;
-        border: 1px solid black;
-        padding: 2px;
-        box-shadow: 0 0 30px gray;
-    }
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
 
-    p {
-        padding: 10px;
-    }
+p {
+    padding: 10px;
+}
