@@ -1,6 +1,6 @@
 :root {
     --primary-color: #0c9df7;
-    --secondary-color: #f4a261;
+    --secondary-color: #524942;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -53,22 +53,24 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
 .hero article {
     position: absolute;
-    bottom: 10px;
-    background-color: beige;
+    bottom: 0px;
+    background-color: darkslategray;
     text-decoration: underline;
+    margin-right: 100px;
+    color: azure;
 }
 
 .hero article img {
