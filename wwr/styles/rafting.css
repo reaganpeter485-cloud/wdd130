@@ -4,12 +4,12 @@
     --accent1-color: #264653;
     --accent2-color: #e404;
     --heading-font: 'Bebas Neue', sans-serif;
-    --body-font: 'Libre Franklin', Arial, sans-serif;
+    --body-font: 'Libre Franklin', 'Arial', sans-serif;
 }
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--accent-color2);
 }
 
 * {
@@ -21,7 +21,6 @@ header {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: var(--secondary-color);
 }
 
 header,
@@ -59,25 +58,25 @@ article {
     height: auto;
 }
 
-.hero h1 {
+h1 {
     position: absolute;
     top: 4%;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.7;
     background-color: var(--accent1-color);
-    color: white;
+    color: #fff;
 }
 
-.hero article {
+article {
     position: absolute;
     bottom: 10%;
-    margin: 10px;
-    padding: 8px;
     opacity: 0.7;
-    background-color: var(--secondary-color);
     color: var(--accent1-color);
+    background-color: orange;
+    margin: 10px;
+    padding: 0;
 
 }
 
@@ -88,7 +87,5 @@ article {
 }
 
 h2 {
-    background-color: var(--accent2-color);
-    color: white;
-    padding: 10px;
+    background-color: var(--accent1-color);
 }
