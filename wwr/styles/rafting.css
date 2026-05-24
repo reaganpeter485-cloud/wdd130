@@ -7,11 +7,6 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color)
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -69,7 +64,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 10px;
     background-color: beige;
