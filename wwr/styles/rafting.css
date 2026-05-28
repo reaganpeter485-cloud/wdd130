@@ -36,6 +36,14 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    color: steelblue;
+    font-weight: 900;
 }
 
 .socialmedia a {
