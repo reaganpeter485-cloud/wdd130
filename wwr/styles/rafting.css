@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgba(123, 123, 69, 0.727);
+    --primary-color: rgb(123, 95, 70);
     --secondary-color: #524942;
     --accent1-color: #264653;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -20,6 +20,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+}
+
+p {
+    font-weight: bold;
 }
 
 body {
@@ -169,10 +173,14 @@ footer {
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 15px 20px;
     background-color: var(--primary-color);
     color: #ffffff;
     float: right;
     margin-bottom: 1px;
+    width: 0 auto;
+    height: auto;
+
 }
