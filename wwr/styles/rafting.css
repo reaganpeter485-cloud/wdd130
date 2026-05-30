@@ -88,16 +88,12 @@ nav ul {
 }
 
 .history-image-box {
-    background-color: transparent;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    flex: 1;
+    text-align: center;
 }
 
-.history-container p {
-    margin: 0;
+.history-container {
+    margin: 0 px;
     padding: 10px;
     line-height: 1.6;
     font-size: 1.1rem;
