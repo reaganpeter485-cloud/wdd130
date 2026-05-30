@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #0c9df7;
+    --primary-color: #2290879e;
     --secondary-color: #524942;
     --accent1-color: #264653;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -113,6 +113,13 @@ nav ul {
     height: auto;
 }
 
+.adventure-icons figcaption {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    font-weight: bold;
+
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -168,6 +175,4 @@ footer {
     color: #ffffff;
     float: right;
     margin-bottom: 1px;
-}
-
 }
