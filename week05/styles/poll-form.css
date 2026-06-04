@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #334155;
+    background-color: #f8fafc;
+    padding: 2rem 0;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1.5rem;
+    font-size: 2rem;
+    color: #1e3a8a;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    display: grid;
+    gap: 1rem;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.375rem;
+    padding: 1.25rem;
+}
+
+legend {
+    padding: 0 0.5rem;
+    color: #1e3a8a;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    justify-self: start;
+    /* Prevents stretching in grid */
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+fieldset > .form-item:last-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+fieldset > .form-item:last-of-type label {
+    text-align: left;
+    padding-right: 0;
+}
+
+fieldset > .form-item:last-of-type textarea {
+    width: 100%;
+}
+
+button {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 200px;
+    background-color: #1e3a8a;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #15803d;
+
+}
+
+footer {
+    margin: 1.5rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #64748b;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 1rem;
+}
