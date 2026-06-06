@@ -84,7 +84,7 @@ nav ul {
     border: 2px solid var(--primary-color);
     padding: 5px;
     display: grid;
-    grid-template-columns: (1fr 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: start;
     justify-content: center;
