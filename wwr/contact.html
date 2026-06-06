@@ -52,47 +52,43 @@
 
             <section class="contact-form">
                 <h2>Send Us a Message</h2>
+                <label for="fullname">Name</label>
+                <input type="text" id="fullname" name="fullname" required>
 
-                <action="#" method="post">
+                <label for="useremail">Email</label>
+                <input type="email" id="useremail" name="useremail" required>
 
-                    <label for="fullname">Name</label>
-                    <input type="text" id="fullname" name="fullname" required>
-
-                    <label for="useremail">Email</label>
-                    <input type="email" id="useremail" name="useremail" required>
-
-                    <fieldset>
-                        <legend>Purpose of Message</legend>
-
-                        <label>
-                            <input type="radio" name="purpose" value="general" required>
-                            General Inquiry
-                        </label>
-
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">
-                            Reservation Question
-                        </label>
-
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">
-                            Website Suggestion
-                        </label>
-                    </fieldset>
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="6" required></textarea>
+                <fieldset>
+                    <legend>Purpose of Message</legend>
 
                     <label>
-                        <input type="checkbox" name="newsletter">
-                        Please subscribe me to the monthly newsletter
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
                     </label>
 
-                    <button type="submit">Get in Touch</button>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch</button>
         </div>
         <h2>We Are Here to Serve You</h2>
-        <section class="employees">
-
+        <div class="employees">
             <figure>
                 <img src="images/employee1.jpg" alt="Sarah Johnson">
                 <figcaption>Sarah Johnson – General Manager</figcaption>
@@ -107,13 +103,12 @@
                 <img src="images/employee3.jpg" alt="Emily Davis">
                 <figcaption>Jean Davis – Customer Service Representative</figcaption>
             </figure>
-        </section>
+        </div>
 
         </form>
         </section>
 
     </main>
-
     <footer>
         <p>©️ 2026 🚣‍♂️ White Water Rafting 🚣‍♀️ Regan Peter</p>
 
