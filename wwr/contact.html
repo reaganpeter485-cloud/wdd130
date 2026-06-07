@@ -13,123 +13,122 @@
 
 <body>
 
-    <body>
 
-        <header class="grid">
-            <img src="images/splash-image.jpg" alt="White Water Rafting Logo">
+    <header class="grid">
+        <img src="images/splash-image.jpg" alt="White Water Rafting Logo">
 
-            <nav class="flex">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="trips.html">Trips</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav class="flex">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <main>
+    <main>
 
-            <section class="contact-info">
-                <h1>White Water Rafting Company</h1>
+        <section class="contact-info">
+            <h1>White Water Rafting Company</h1>
 
-                <p><strong>Address:</strong> Rapids Camp Sagana , Kirinyaga,Kenya</p>
+            <p><strong>Address:</strong> Rapids Camp Sagana , Kirinyaga,Kenya</p>
 
-                <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
 
-                <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+            <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+        </section>
+        <div class="large">
+            <section class="map-section">
+                <h2>Find Our Location</h2>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28788.44206311336!2d37.23095442035693!3d-0.7037456726824363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18289f1b277fc859%3A0xedcd47f73cffdb36!2sRapids%20Camp%20Sagana%20-%20White%20Water%20Rafting%20Centre!5e1!3m2!1sen!2ske!4v1780769106209!5m2!1sen!2ske"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
-            <div class="large">
-                <section class="map-section">
-                    <h2>Find Our Location</h2>
 
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28788.44206311336!2d37.23095442035693!3d-0.7037456726824363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18289f1b277fc859%3A0xedcd47f73cffdb36!2sRapids%20Camp%20Sagana%20-%20White%20Water%20Rafting%20Centre!5e1!3m2!1sen!2ske!4v1780769106209!5m2!1sen!2ske"
-                      width="600" height="450" allowfullscreen="" loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </section>
+            <form action="#" method="post">
+                <section class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
 
-                <form action="#" method="post">
-                    <section class="contact-form">
-                        <h2>Send Us a Message</h2>
-                        <label for="fullname">Name</label>
-                        <input type="text" id="fullname" name="fullname" required>
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" required>
 
-                        <label for="useremail">Email</label>
-                        <input type="email" id="useremail" name="useremail" required>
-
-                        <fieldset>
-                            <legend>Purpose of Message</legend>
-
-                            <label>
-                                <input type="radio" id="purpose-general" name="purpose"
-                                  value="general" required>
-                                General Inquiry
-                            </label>
-
-                            <label>
-                                <input type="radio" id="purpose-reservation" name="purpose"
-                                  value="reservation">
-                                Reservation Question
-                            </label>
-
-                            <label>
-                                <input type="radio" id="purpose-suggestion" name="purpose"
-                                  value="suggestion">
-                                Website Suggestion
-                            </label>
-                        </fieldset>
-
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
+                    <fieldset>
+                        <legend>Purpose of Message</legend>
 
                         <label>
-                            <input type="checkbox" id="newsletter" name="newsletter">
-                            Please subscribe me to the monthly newsletter
+                            <input type="radio" id="purpose-general" name="purpose" value="general"
+                              required>
+                            General Inquiry
                         </label>
 
-                        <button type="submit">Get in Touch</button>
-                    </section>
-                </form>
-            </div>
+                        <label>
+                            <input type="radio" id="purpose-reservation" name="purpose"
+                              value="reservation">
+                            Reservation Question
+                        </label>
 
-            <section class="employees">
-                <h2>We Are Here to Serve You</h2>
+                        <label>
+                            <input type="radio" id="purpose-suggestion" name="purpose"
+                              value="suggestion">
+                            Website Suggestion
+                        </label>
+                    </fieldset>
 
-                <figure>
-                    <img src="images/employee1.jpg" alt="Sarah Johnson">
-                    <figcaption>Sarah Johnson – General Manager</figcaption>
-                </figure>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
 
-                <figure>
-                    <img src="images/employee2.jpg" alt="Michael Brown">
-                    <figcaption>Michael Reagan – Lead River Guide</figcaption>
-                </figure>
+                    <label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
 
-                <figure>
-                    <img src="images/employee3.jpg" alt="Emily Davis">
-                    <figcaption>Jean Davis – Customer Service Representative</figcaption>
-                </figure>
-            </section>
+                    <button type="submit">Get in Touch</button>
+                </section>
+            </form>
+        </div>
 
-        </main>
-        <footer>
-            <p>©️ 2026 🚣‍♂️ White Water Rafting 🚣‍♀️ Regan Peter</p>
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
 
-            <nav class="socialmedia">
-                <a href="https://facebook.com">
-                    <img src="images/facebook-icon.webp" alt="Facebook icon">
-                </a>
+            <figure>
+                <img src="images/employee1.jpg" alt="Sarah Johnson">
+                <figcaption>Sarah Johnson – General Manager</figcaption>
+            </figure>
 
-                <a href="https://linkedin.com">
-                    <img src="images/linkedln-icon.webp" alt="LinkedIn icon">
-                </a>
+            <figure>
+                <img src="images/employee2.jpg" alt="Michael Brown">
+                <figcaption>Michael Reagan – Lead River Guide</figcaption>
+            </figure>
 
-                <a href="https://x.com">
-                    <img src="images/x-icon.webp" alt="X icon">
-                </a>
-            </nav>
-        </footer>
-    </body>
+            <figure>
+                <img src="images/employee3.jpg" alt="Emily Davis">
+                <figcaption>Jean Davis – Customer Service Representative</figcaption>
+            </figure>
+        </section>
+
+    </main>
+    <footer>
+        <p>©️ 2026 🚣‍♂️ White Water Rafting 🚣‍♀️ Regan Peter</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.webp" alt="Facebook icon">
+            </a>
+
+            <a href="https://linkedin.com">
+                <img src="images/linkedln-icon.webp" alt="LinkedIn icon">
+            </a>
+
+            <a href="https://x.com">
+                <img src="images/x-icon.webp" alt="X icon">
+            </a>
+        </nav>
+    </footer>
+</body>
 
 </html>
