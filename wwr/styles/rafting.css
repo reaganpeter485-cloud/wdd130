@@ -219,11 +219,14 @@ footer {
 
 .employees {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
     margin: 2rem 0;
+}
+
+.grid-heading {
+    grid-column: 1/4;
 }
 
 .employees figure {
