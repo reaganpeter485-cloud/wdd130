@@ -72,6 +72,13 @@ nav ul {
     font-weight: 900;
 }
 
+.same-column {
+    display: flex;
+    flex-direction: row;
+    grid-column: 1/4;
+
+}
+
 .history-section h2 {
     width: 100%;
     margin: 0;
@@ -93,7 +100,7 @@ nav ul {
     border: 2px solid var(--primary-color);
     padding: 5px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: start;
     justify-content: center;
@@ -109,7 +116,7 @@ nav ul {
 }
 
 .history-container p {
-    display: grid;
+    display: flex;
     height: auto;
     width: 100%;
     justify-content: end;
